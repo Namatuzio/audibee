@@ -261,7 +261,7 @@ function Home() {
         <Pressable style={styles.btnMatchFace} onPress={() => setProfile(profiles[randomNum()])}>
           <Ionicons name="close" style={styles.btnMatchText}/>
         </Pressable>
-        <Pressable style={styles.btnMatchFace} onPress={() => alert('Message Sent!')}>
+        <Pressable style={styles.btnMatchFace} onPress={() => alert('You Matched!')}>
         <Ionicons name="checkmark" style={styles.btnMatchText}/>
         </Pressable>
         </View>
